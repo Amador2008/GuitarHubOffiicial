@@ -37,7 +37,7 @@ body {
       border-radius: 8px;
       border: none;
       cursor: pointer;
-      font-size: 15px;
+      font-size: 17px;
       transition: 0.3s;
     }
 
@@ -108,7 +108,8 @@ body {
 }
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
   background-color: #000;
   color: #6fda98;
 }
@@ -167,6 +168,12 @@ main p {
   height: 25%;
   width: 25%;
   padding: 10px;
+}
+
+.chordstwo img {
+  height: 30%;
+  width: 20%;
+  padding: 20px;
 }
 
 @media (max-width: 768px) {
